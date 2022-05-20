@@ -1,0 +1,133 @@
+<!DOCTYPE html> <!--Document type declaration and the version of html-->
+<html>
+  
+<!-- Meta data for the html document
+I changed the names of each page to correct extra characters and spaces.
+Changed homepage to index.
+Added meta data and updated information in meta data
+attempted to fix and add responsiveness to imgs used for backgrounds and could not 
+get it to function correctly. I spent several hours attempting to figure it out and 
+need some additional assistance.
+-->
+<head>
+  <title>All Chains Disc Sports</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Disc golf website">
+  <meta name="keywords" content="Disc Golf, Frisbee, Ace, Golf, Course, Reviews">
+  <meta name="author" content="Cory Williams">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<style>
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: url(img/Hole\ 4\ putt\ sequence_x04.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 300px;
+  grid-gap: 10px;
+  background-color: #acd4f5;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container > .item1 {
+  background-color: beige;
+}
+
+.grid-container > .item2 {
+  background-color: beige;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(159, 171, 159);
+   color: white;
+   text-align: center;
+}
+
+</style>
+
+</head>
+
+<!--Display information and content visible to clients -->
+<body>
+  <div class="header">
+    <h1>All Chains Disc Sports</h1>
+    <p>Discs, Reviews, Ace runs!</p>
+  </div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="discs.html">Discs</a>
+  <a class="active" href="#reviews">Reviews</a>
+  <a href="aceruns.html">Ace Runs</a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Hear what we think</h2>
+  <p>
+    <div class="grid-container">
+        <div class="item1">Discs/Equipment</div>
+        <div class="item2">Courses</div>
+      </div>
+  </p>
+</div>
+
+<!--Footer with contact info-->
+<div class="footer">
+  <p>All Chains All Day!</p>
+</div>
+
+</body>
+</html>
+
